@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0F51F42BF9264300C080A5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F51F32BF9264300C080A5 /* Models.swift */; };
+		DD19E0F52C03C9BC003BA531 /* waterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19E0F42C03C9BC003BA531 /* waterViewModel.swift */; };
+		DD19E0F72C03C9D3003BA531 /* mealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19E0F62C03C9D3003BA531 /* mealViewModel.swift */; };
+		DD19E0F92C03C9DE003BA531 /* foodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19E0F82C03C9DE003BA531 /* foodViewModel.swift */; };
+		DD1ACF5B2C03B18500B04AE0 /* water.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1ACF5A2C03B18500B04AE0 /* water.swift */; };
+		DD1ACF5E2C03B2CE00B04AE0 /* exerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1ACF5D2C03B2CE00B04AE0 /* exerciseViewModel.swift */; };
+		DD1ACF602C03B2F700B04AE0 /* userExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1ACF5F2C03B2F700B04AE0 /* userExerciseViewModel.swift */; };
+		DD30452A2BF9503400FC69E2 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3045292BF9503400FC69E2 /* ExerciseCell.swift */; };
+		DD30452C2BFA9DE500FC69E2 /* profileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30452B2BFA9DE500FC69E2 /* profileCell.swift */; };
+		DD30452E2BFAA0E300FC69E2 /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30452D2BFAA0E300FC69E2 /* network.swift */; };
+		DD3045322BFB848300FC69E2 /* createExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3045312BFB848300FC69E2 /* createExerciseViewController.swift */; };
+		DD6542D92BF8A3D900B21ADF /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6542D82BF8A3D900B21ADF /* ExerciseViewController.swift */; };
+		DDA124C92C04B64200F8E6F0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDA124C82C04B64200F8E6F0 /* FirebaseAuth */; };
+		DDA124CB2C04B64200F8E6F0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DDA124CA2C04B64200F8E6F0 /* FirebaseFirestore */; };
+		DDA124CD2C04B64200F8E6F0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DDA124CC2C04B64200F8E6F0 /* FirebaseFirestoreSwift */; };
+		DDA124D12C04D79A00F8E6F0 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA124D02C04D79A00F8E6F0 /* FoodCell.swift */; };
+		DDABD7BF2BFBACBD0017629B /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDABD7BE2BFBACBD0017629B /* extension.swift */; };
+		DDADAB372BED5EB100950501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDADAB362BED5EB100950501 /* AppDelegate.swift */; };
+		DDADAB392BED5EB100950501 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDADAB382BED5EB100950501 /* SceneDelegate.swift */; };
+		DDADAB3B2BED5EB100950501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDADAB3A2BED5EB100950501 /* ViewController.swift */; };
+		DDADAB3E2BED5EB100950501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDADAB3C2BED5EB100950501 /* Main.storyboard */; };
+		DDADAB402BED5EB200950501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDADAB3F2BED5EB200950501 /* Assets.xcassets */; };
+		DDADAB432BED5EB200950501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDADAB412BED5EB200950501 /* LaunchScreen.storyboard */; };
+		DDADAB4B2BED5F5500950501 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDADAB4A2BED5F5500950501 /* GoogleService-Info.plist */; };
+		DDB106B32C03DF160017BBAA /* userNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB106B22C03DF160017BBAA /* userNetworkModel.swift */; };
+		DDB106B62C03E8530017BBAA /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB106B52C03E8530017BBAA /* AuthManager.swift */; };
+		DDB106B82C03EBD40017BBAA /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB106B72C03EBD40017BBAA /* DatabaseManager.swift */; };
+		DDB106BA2C03EFD40017BBAA /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB106B92C03EFD40017BBAA /* StorageManager.swift */; };
+		DDC7090D2C077FB500FCE135 /* myMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC7090C2C077FB500FCE135 /* myMealViewController.swift */; };
+		DDED02422C04E58B00BF00EF /* WaterWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED02412C04E58B00BF00EF /* WaterWaterViewController.swift */; };
+		DDED02442C04E6C200BF00EF /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED02432C04E6C200BF00EF /* FoodViewController.swift */; };
+		DDED02472C04F6F000BF00EF /* createFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED02462C04F6EF00BF00EF /* createFoodViewController.swift */; };
+		DDED024C2C051A0100BF00EF /* userMealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED024B2C051A0100BF00EF /* userMealViewModel.swift */; };
+		DDEDEE912C0660D90053E40D /* createMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEDEE902C0660D90053E40D /* createMealViewController.swift */; };
+		DDF00F6E2BED68580054B114 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF00F6D2BED68580054B114 /* ProfileViewController.swift */; };
+		DDF00F702BED686D0054B114 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF00F6F2BED686D0054B114 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD0F51F32BF9264300C080A5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DD19E0F42C03C9BC003BA531 /* waterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterViewModel.swift; sourceTree = "<group>"; };
+		DD19E0F62C03C9D3003BA531 /* mealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealViewModel.swift; sourceTree = "<group>"; };
+		DD19E0F82C03C9DE003BA531 /* foodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodViewModel.swift; sourceTree = "<group>"; };
+		DD1ACF5A2C03B18500B04AE0 /* water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water.swift; sourceTree = "<group>"; };
+		DD1ACF5D2C03B2CE00B04AE0 /* exerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseViewModel.swift; sourceTree = "<group>"; };
+		DD1ACF5F2C03B2F700B04AE0 /* userExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userExerciseViewModel.swift; sourceTree = "<group>"; };
+		DD3045292BF9503400FC69E2 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		DD30452B2BFA9DE500FC69E2 /* profileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileCell.swift; sourceTree = "<group>"; };
+		DD30452D2BFAA0E300FC69E2 /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
+		DD3045312BFB848300FC69E2 /* createExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createExerciseViewController.swift; sourceTree = "<group>"; };
+		DD6542D82BF8A3D900B21ADF /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		DDA124D02C04D79A00F8E6F0 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		DDABD7BE2BFBACBD0017629B /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		DDADAB332BED5EB100950501 /* fitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDADAB362BED5EB100950501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDADAB382BED5EB100950501 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDADAB3A2BED5EB100950501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDADAB3D2BED5EB100950501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDADAB3F2BED5EB200950501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDADAB422BED5EB200950501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDADAB442BED5EB200950501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDADAB4A2BED5F5500950501 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDB106B22C03DF160017BBAA /* userNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userNetworkModel.swift; sourceTree = "<group>"; };
+		DDB106B52C03E8530017BBAA /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		DDB106B72C03EBD40017BBAA /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		DDB106B92C03EFD40017BBAA /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		DDB4CF6A2C04B3E800C7E10C /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB4CF6C2C04B3F100C7E10C /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB4CF6E2C04B3F900C7E10C /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB4CF702C04B3FD00C7E10C /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC7090C2C077FB500FCE135 /* myMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMealViewController.swift; sourceTree = "<group>"; };
+		DDED02412C04E58B00BF00EF /* WaterWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaterViewController.swift; sourceTree = "<group>"; };
+		DDED02432C04E6C200BF00EF /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		DDED02462C04F6EF00BF00EF /* createFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createFoodViewController.swift; sourceTree = "<group>"; };
+		DDED024B2C051A0100BF00EF /* userMealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userMealViewModel.swift; sourceTree = "<group>"; };
+		DDEDEE902C0660D90053E40D /* createMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createMealViewController.swift; sourceTree = "<group>"; };
+		DDF00F6D2BED68580054B114 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DDF00F6F2BED686D0054B114 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDADAB302BED5EB100950501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA124C92C04B64200F8E6F0 /* FirebaseAuth in Frameworks */,
+				DDA124CB2C04B64200F8E6F0 /* FirebaseFirestore in Frameworks */,
+				DDA124CD2C04B64200F8E6F0 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F7E2164D1BC1189B687F7AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD0F51F52BF926FC00C080A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4CF702C04B3FD00C7E10C /* FirebaseCore.framework */,
+				DDB4CF6E2C04B3F900C7E10C /* FirebaseStorage.framework */,
+				DDB4CF6C2C04B3F100C7E10C /* FirebaseFirestore.framework */,
+				DDB4CF6A2C04B3E800C7E10C /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD172DB32BFB8AE800729ADF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDADAB3C2BED5EB100950501 /* Main.storyboard */,
+				DDADAB412BED5EB200950501 /* LaunchScreen.storyboard */,
+				DDABD7BE2BFBACBD0017629B /* extension.swift */,
+				DD30452B2BFA9DE500FC69E2 /* profileCell.swift */,
+				DD3045292BF9503400FC69E2 /* ExerciseCell.swift */,
+				DDA124D02C04D79A00F8E6F0 /* FoodCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD172DB42BFB8C2400729ADF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DD30452D2BFAA0E300FC69E2 /* network.swift */,
+				DDB106B52C03E8530017BBAA /* AuthManager.swift */,
+				DDB106B72C03EBD40017BBAA /* DatabaseManager.swift */,
+				DDB106B92C03EFD40017BBAA /* StorageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DD172DB52BFB8D3000729ADF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDED02482C04F6F400BF00EF /* Food */,
+				DDED02452C04F6BA00BF00EF /* Exercise */,
+				DDED02492C04F71100BF00EF /* Core */,
+				DDED024A2C04F72400BF00EF /* Water */,
+				DDEDEE902C0660D90053E40D /* createMealViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD1ACF5C2C03B25700B04AE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD1ACF5D2C03B2CE00B04AE0 /* exerciseViewModel.swift */,
+				DD1ACF5F2C03B2F700B04AE0 /* userExerciseViewModel.swift */,
+				DD19E0F42C03C9BC003BA531 /* waterViewModel.swift */,
+				DD19E0F62C03C9D3003BA531 /* mealViewModel.swift */,
+				DD19E0F82C03C9DE003BA531 /* foodViewModel.swift */,
+				DDB106B22C03DF160017BBAA /* userNetworkModel.swift */,
+				DDED024B2C051A0100BF00EF /* userMealViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD3045332BFB84F000FC69E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD0F51F32BF9264300C080A5 /* Models.swift */,
+				DD1ACF5A2C03B18500B04AE0 /* water.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDADAB2A2BED5EB100950501 = {
+			isa = PBXGroup;
+			children = (
+				DDADAB352BED5EB100950501 /* fitnessApp */,
+				DDADAB342BED5EB100950501 /* Products */,
+				DD0F51F52BF926FC00C080A5 /* Frameworks */,
+				8F7E2164D1BC1189B687F7AB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DDADAB342BED5EB100950501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDADAB332BED5EB100950501 /* fitnessApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDADAB352BED5EB100950501 /* fitnessApp */ = {
+			isa = PBXGroup;
+			children = (
+				DDADAB442BED5EB200950501 /* Info.plist */,
+				DDB106B42C03E7470017BBAA /* Resources */,
+				DD1ACF5C2C03B25700B04AE0 /* ViewModel */,
+				DD172DB52BFB8D3000729ADF /* Controller */,
+				DD172DB42BFB8C2400729ADF /* Managers */,
+				DD172DB32BFB8AE800729ADF /* View */,
+				DD3045332BFB84F000FC69E2 /* Model */,
+			);
+			path = fitnessApp;
+			sourceTree = "<group>";
+		};
+		DDB106B42C03E7470017BBAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDADAB4A2BED5F5500950501 /* GoogleService-Info.plist */,
+				DDADAB382BED5EB100950501 /* SceneDelegate.swift */,
+				DDADAB362BED5EB100950501 /* AppDelegate.swift */,
+				DDADAB3F2BED5EB200950501 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DDED02452C04F6BA00BF00EF /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				DD3045312BFB848300FC69E2 /* createExerciseViewController.swift */,
+				DD6542D82BF8A3D900B21ADF /* ExerciseViewController.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		DDED02482C04F6F400BF00EF /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				DDED02432C04E6C200BF00EF /* FoodViewController.swift */,
+				DDED02462C04F6EF00BF00EF /* createFoodViewController.swift */,
+				DDC7090C2C077FB500FCE135 /* myMealViewController.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		DDED02492C04F71100BF00EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DDADAB3A2BED5EB100950501 /* ViewController.swift */,
+				DDF00F6D2BED68580054B114 /* ProfileViewController.swift */,
+				DDF00F6F2BED686D0054B114 /* SettingsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DDED024A2C04F72400BF00EF /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				DDED02412C04E58B00BF00EF /* WaterWaterViewController.swift */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDADAB322BED5EB100950501 /* fitnessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDADAB472BED5EB200950501 /* Build configuration list for PBXNativeTarget "fitnessApp" */;
+			buildPhases = (
+				DDADAB2F2BED5EB100950501 /* Sources */,
+				DDADAB302BED5EB100950501 /* Frameworks */,
+				DDADAB312BED5EB100950501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fitnessApp;
+			packageProductDependencies = (
+				DDA124C82C04B64200F8E6F0 /* FirebaseAuth */,
+				DDA124CA2C04B64200F8E6F0 /* FirebaseFirestore */,
+				DDA124CC2C04B64200F8E6F0 /* FirebaseFirestoreSwift */,
+			);
+			productName = fitnessApp;
+			productReference = DDADAB332BED5EB100950501 /* fitnessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDADAB2B2BED5EB100950501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DDADAB322BED5EB100950501 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = DDADAB2E2BED5EB100950501 /* Build configuration list for PBXProject "fitnessApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDADAB2A2BED5EB100950501;
+			packageReferences = (
+				DDA124C72C04B64200F8E6F0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DDADAB342BED5EB100950501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDADAB322BED5EB100950501 /* fitnessApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDADAB312BED5EB100950501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDADAB432BED5EB200950501 /* LaunchScreen.storyboard in Resources */,
+				DDADAB4B2BED5F5500950501 /* GoogleService-Info.plist in Resources */,
+				DDADAB402BED5EB200950501 /* Assets.xcassets in Resources */,
+				DDADAB3E2BED5EB100950501 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDADAB2F2BED5EB100950501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDADAB3B2BED5EB100950501 /* ViewController.swift in Sources */,
+				DDADAB372BED5EB100950501 /* AppDelegate.swift in Sources */,
+				DDED024C2C051A0100BF00EF /* userMealViewModel.swift in Sources */,
+				DD30452E2BFAA0E300FC69E2 /* network.swift in Sources */,
+				DDABD7BF2BFBACBD0017629B /* extension.swift in Sources */,
+				DDF00F6E2BED68580054B114 /* ProfileViewController.swift in Sources */,
+				DDF00F702BED686D0054B114 /* SettingsViewController.swift in Sources */,
+				DD3045322BFB848300FC69E2 /* createExerciseViewController.swift in Sources */,
+				DDEDEE912C0660D90053E40D /* createMealViewController.swift in Sources */,
+				DDC7090D2C077FB500FCE135 /* myMealViewController.swift in Sources */,
+				DDA124D12C04D79A00F8E6F0 /* FoodCell.swift in Sources */,
+				DDB106B32C03DF160017BBAA /* userNetworkModel.swift in Sources */,
+				DD1ACF5B2C03B18500B04AE0 /* water.swift in Sources */,
+				DDB106B62C03E8530017BBAA /* AuthManager.swift in Sources */,
+				DD30452C2BFA9DE500FC69E2 /* profileCell.swift in Sources */,
+				DD0F51F42BF9264300C080A5 /* Models.swift in Sources */,
+				DD1ACF5E2C03B2CE00B04AE0 /* exerciseViewModel.swift in Sources */,
+				DDB106BA2C03EFD40017BBAA /* StorageManager.swift in Sources */,
+				DD1ACF602C03B2F700B04AE0 /* userExerciseViewModel.swift in Sources */,
+				DDED02442C04E6C200BF00EF /* FoodViewController.swift in Sources */,
+				DD19E0F92C03C9DE003BA531 /* foodViewModel.swift in Sources */,
+				DD30452A2BF9503400FC69E2 /* ExerciseCell.swift in Sources */,
+				DD6542D92BF8A3D900B21ADF /* ExerciseViewController.swift in Sources */,
+				DD19E0F52C03C9BC003BA531 /* waterViewModel.swift in Sources */,
+				DDADAB392BED5EB100950501 /* SceneDelegate.swift in Sources */,
+				DDED02472C04F6F000BF00EF /* createFoodViewController.swift in Sources */,
+				DD19E0F72C03C9D3003BA531 /* mealViewModel.swift in Sources */,
+				DDED02422C04E58B00BF00EF /* WaterWaterViewController.swift in Sources */,
+				DDB106B82C03EBD40017BBAA /* DatabaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDADAB3C2BED5EB100950501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDADAB3D2BED5EB100950501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDADAB412BED5EB200950501 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDADAB422BED5EB200950501 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDADAB452BED5EB200950501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDADAB462BED5EB200950501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDADAB482BED5EB200950501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96P2T6UMRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fitnessApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhangumus.fitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDADAB492BED5EB200950501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96P2T6UMRT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fitnessApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhangumus.fitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDADAB2E2BED5EB100950501 /* Build configuration list for PBXProject "fitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDADAB452BED5EB200950501 /* Debug */,
+				DDADAB462BED5EB200950501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDADAB472BED5EB200950501 /* Build configuration list for PBXNativeTarget "fitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDADAB482BED5EB200950501 /* Debug */,
+				DDADAB492BED5EB200950501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDA124C72C04B64200F8E6F0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDA124C82C04B64200F8E6F0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDA124C72C04B64200F8E6F0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DDA124CA2C04B64200F8E6F0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDA124C72C04B64200F8E6F0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DDA124CC2C04B64200F8E6F0 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDA124C72C04B64200F8E6F0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDADAB2B2BED5EB100950501 /* Project object */;
+}
