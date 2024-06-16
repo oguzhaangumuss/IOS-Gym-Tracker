@@ -18,3 +18,11 @@ Developed in Swift, the app integrates with Firebase for seamless user authentic
 - Firebase Authentication and Firestore (database)
 - MVVM architecture for structured data management and separation of concerns
 - UIKit framework for building responsive and intuitive user interfaces
+
+## Screeshots
+
+<img width="1029" alt="Ss1" src="https://github.com/oguzhaangumuss/IOS-Gym-Tracker/assets/95320060/c4541f8e-b8e5-4fe9-959d-fb6ff4eb6ce1">
+ 
+<img width="1022" alt="Ss2" src="https://github.com/oguzhaangumuss/IOS-Gym-Tracker/assets/95320060/ed74a461-118d-4ff8-9ad3-6fd7f65862d3">
+ 
+<img width="1031" alt="Ss3" src="https://github.com/oguzhaangumuss/IOS-Gym-Tracker/assets/95320060/df7e6e77-a9b7-4d51-aa61-9228ed583d26">
