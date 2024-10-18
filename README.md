@@ -19,6 +19,9 @@ Developed in Swift, the app integrates with Firebase for seamless user authentic
 - MVVM architecture for structured data management and separation of concerns
 - UIKit framework for building responsive and intuitive user interfaces
 
+## Note:
+This is the first version of Gym Tracker. A more advanced version with an improved user interface is currently in development, which will bring new features and a refined design to enhance the overall user experience.
+
 ## Screeshots
 
 <img width="1029" alt="Ss1" src="https://github.com/oguzhaangumuss/IOS-Gym-Tracker/assets/95320060/c4541f8e-b8e5-4fe9-959d-fb6ff4eb6ce1">
